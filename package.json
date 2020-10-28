@@ -1,0 +1,23 @@
+{
+  "name": "copy-text-into-clipboard",
+  "version": "1.0.0",
+  "description": "A simple package to copy text to clipboard in windows using Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwesomeStickz/copy-text-into-clipboard.git"
+  },
+  "keywords": [
+    "copy",
+    "clipboard",
+    "server-side",
+    "outside-browser"
+  ],
+  "author": "AwesomeStickz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AwesomeStickz/copy-text-into-clipboard/issues"
+  },
+  "homepage": "https://github.com/AwesomeStickz/copy-text-into-clipboard#readme"
+}
