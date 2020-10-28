@@ -4,6 +4,10 @@
   "description": "A simple package to copy text to clipboard in windows using Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AwesomeStickz/copy-text-into-clipboard.git"
