@@ -1,6 +1,6 @@
 {
   "name": "copy-text-into-clipboard",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple package to copy text, contents of a file into the clipboard outside browsers (server side)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
