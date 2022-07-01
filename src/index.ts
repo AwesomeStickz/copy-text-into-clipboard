@@ -21,5 +21,12 @@ export const copy = (text: string, options?: { copyFromFile?: boolean }) => {
                 childProcess.exec(`(echo ${text.replace(/\n/g, '& echo ')}) | xclip -sel clip`);
             }
             break;
+        case 'darwin': // darwin is MacOS, IOS, basically anything apple.
+            if (options?.copyFromFile === true) {
+                childProcess.exec(`cat ${text} | pbcopy`);
+            } else {
+                childProcess.exec(`(echo ${text.replace(/\n/g, '& echo ')}) | pbcopy`);
+            }
+            break;
     }
 };
