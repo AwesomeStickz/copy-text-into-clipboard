@@ -1,5 +1,5 @@
 {
-  "name": "copy-text-into-clipboard",
+  "name": "@ignhycord/copy-clip",
   "version": "1.1.0",
   "description": "A simple package to copy text, contents of a file into the clipboard outside browsers (server side)",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AwesomeStickz/copy-text-into-clipboard.git"
+    "url": "git+https://github.com/Hycord/copy-clip.git"
   },
   "keywords": [
     "copy",
@@ -18,10 +18,13 @@
     "server-side",
     "outside-browser"
   ],
-  "author": "AwesomeStickz",
+  "author": "Hycord",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AwesomeStickz/copy-text-into-clipboard/issues"
+    "url": "https://github.com/Hycord/copy-clip/issues"
   },
-  "homepage": "https://github.com/AwesomeStickz/copy-text-into-clipboard#readme"
+  "homepage": "https://github.com/Hycord/copy-clip#readme",
+  "devDependencies": {
+    "@types/node": "^18.6.1"
+  }
 }
