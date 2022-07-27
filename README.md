@@ -5,7 +5,7 @@ A simple package to copy text, contents of a file into the clipboard outside bro
 ## Install
 
 ```
-$ npm i copy-text-into-clipboard
+$ npm i @ignhycord/copy-clip
 ```
 
 ## Example
