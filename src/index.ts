@@ -5,7 +5,7 @@ export const copy = (text: string, options?: { copyFromFile?: boolean }) => {
     if (typeof text !== 'string') return console.error(new TypeError('Type of text must be a string!'));
 
     switch (process.platform) {
-        case 'win32':
+        case 'win32': // Windows
             if (options?.copyFromFile === true) {
                 const filePath = path.resolve(text);
 
