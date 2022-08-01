@@ -1,4 +1,4 @@
-# copy-clip
+# copy-text-into-clipboard
 
 A simple package to copy text, contents of a file into the clipboard outside browsers (server side)
 
@@ -11,7 +11,7 @@ $ npm i copy-text-into-clipboard
 ## Example
 
 ```js
-const { copy } = require('copy-clip');
+const { copy } = require('copy-text-into-clipboard');
 
 copy('Text to Copy');
 
