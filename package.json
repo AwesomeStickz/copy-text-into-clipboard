@@ -18,10 +18,16 @@
     "server-side",
     "outside-browser"
   ],
-  "author": "AwesomeStickz",
+  "author": "AwesomeStickz <awesome@stickz.dev> (https://giveawayboat.com/)",
+  "contributors": [
+    "Hycord <masen0914@gmail.com> (https://github.com/hycord)" 
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AwesomeStickz/copy-text-into-clipboard/issues"
   },
-  "homepage": "https://github.com/AwesomeStickz/copy-text-into-clipboard#readme"
+  "homepage": "https://github.com/AwesomeStickz/copy-text-into-clipboard#readme",
+  "devDependencies": {
+    "@types/node": "^18.6.3"
+  }
 }
