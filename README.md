@@ -11,7 +11,7 @@ $ npm i copy-text-into-clipboard
 ## Example
 
 ```js
-const { copy } = require('@ignhycord/copy-clip');
+const { copy } = require('copy-clip');
 
 copy('Text to Copy');
 
